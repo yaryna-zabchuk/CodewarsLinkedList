@@ -1,4 +1,5 @@
-'''Solution for the problem of parsing a linked list from a string'''
+'''Solution for the problem of parsing a linked list from a string
+https://www.codewars.com/kata/582c5382f000e535100001a7/train/python'''
 from preloaded import Node
 
 def linked_list_from_string(s):

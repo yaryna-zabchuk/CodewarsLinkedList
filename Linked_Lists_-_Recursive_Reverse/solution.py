@@ -1,4 +1,5 @@
-'''Solution for reversing a linked list using recursion'''
+'''Solution for reversing a linked list using recursion
+https://www.codewars.com/kata/55e725b930957a038a000042/train/python'''
 
 class Node(object):
     def __init__(self, data=None):

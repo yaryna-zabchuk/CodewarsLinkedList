@@ -1,4 +1,5 @@
-'''Solution for LeetCode problem 83: Remove Duplicates from Sorted List.'''
+'''Solution for LeetCode problem 83: Remove Duplicates from Sorted List.
+https://www.codewars.com/kata/55d9f257d60c5fd98d00001b/train/python'''
 
 class Node(object):
     def __init__(self, data):

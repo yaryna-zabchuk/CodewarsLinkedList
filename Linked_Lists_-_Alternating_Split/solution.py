@@ -1,4 +1,5 @@
-'''Solution for the problem "Linked Lists - Alternating Split" on Codewars.'''
+'''Solution for the problem "Linked Lists - Alternating Split" on Codewars.
+https://www.codewars.com/kata/55dd5386575839a74f0000a9/train/python'''
 
 class Node(object):
     def __init__(self, data=None):

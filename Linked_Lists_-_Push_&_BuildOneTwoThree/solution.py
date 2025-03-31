@@ -1,4 +1,5 @@
-'''Solution for Codewars problem: Linked Lists - Push & Build One Two Three'''
+'''Solution for Codewars problem: Linked Lists - Push & Build One Two Three
+https://www.codewars.com/kata/582c5382f000e535100001a7/train/python'''
 from preloaded import Node
 
 def push(head, data):

@@ -1,4 +1,5 @@
-'''Solution for the problem of moving a node from one linked list to another'''
+'''Solution for the problem of moving a node from one linked list to another
+https://www.codewars.com/kata/55da347204760ba494000038/train/python'''
 
 class Node(object):
     def __init__(self, data):

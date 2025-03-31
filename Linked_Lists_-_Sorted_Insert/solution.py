@@ -1,4 +1,5 @@
-'''Solution for the problem of inserting a new node into a sorted linked list'''
+'''Solution for the problem of inserting a new node into a sorted linked list
+https://www.codewars.com/kata/55cc33e97259667a08000044//train/python'''
 from preloaded import Node
 
 def sorted_insert(head, data):
@@ -10,8 +11,10 @@ def sorted_insert(head, data):
         return new_node
 
     cur = head
+
     while cur.next is not None and cur.next.data < new_node.data:
         cur = cur.next
     new_node.next = cur.next
     cur.next = new_node
+
     return head

@@ -1,4 +1,5 @@
-'''Solution for the problem of getting the nth node from the end of a linked list. '''
+'''Solution for the problem of getting the nth node from the end of a linked list. 
+https://www.codewars.com/kata/55befc42bfe4d13ab1000007/train/python'''
 from preloaded import Node
 
 def get_nth(node, index):
@@ -13,6 +14,3 @@ def get_nth(node, index):
             raise ValueError("Invalid index value should throw error.")
 
     return node
-
-linked_list = Node(1, Node(2, Node(3, None)))
-print(get_nth(linked_list, 3))
